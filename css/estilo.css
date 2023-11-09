@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.lista ul li a, 
+.carrito div a {
+    color: #fff;
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* main */
+main {
+    background-color: #EAE3C5;
+    padding-bottom: 80px;
+    
+}
+
+ul { 
+    list-style: none;
+}
+
+footer ul li a {
+    margin-left: 10px;
+}
+
+footer {
+    height: 150px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.formulario1 {
+    height: 30rem;
+
+}
+
+
