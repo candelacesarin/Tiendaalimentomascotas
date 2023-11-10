@@ -48,3 +48,14 @@ main {
 header {
     color: #EAE3C5;
 }
+
+.navbar-brand img {
+    max-width: 100%; // Asegura que la imagen no sobrepase su contenedor
+ }
+ 
+ @media (max-width: 768px) {
+    .navbar-brand img {
+       max-width: 80%; // Ajusta el tamaño del logo para pantallas más pequeñas
+    }
+ }
+ 
