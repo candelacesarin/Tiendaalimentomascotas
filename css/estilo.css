@@ -45,14 +45,4 @@ header {
   color: #EAE3C5;
 }
 
-.navbar-brand img {
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  .navbar-brand img {
-    max-width: 80%;
-  }
-}
-
 /*# sourceMappingURL=estilo.css.map */
