@@ -52,13 +52,16 @@ header {
 // Estilos para tamaños de pantalla grandes (mayor a 767px)
 .navbar-brand img {
     max-width: 100%;
-    height: auto; // Esto mantiene la proporción de la imagen
+    height: auto; // 
 }
 
 // Media query para tamaños de pantalla pequeños (hasta 767px)
 @media (max-width: 767px) {
     .navbar-brand img {
-        max-width: 70%; // Puedes ajustar el tamaño según tus preferencias
+        max-width: 70%; 
     }
 }
 
+.custom-text-color .nav-link {
+    color: #ff0000; 
+  }

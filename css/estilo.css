@@ -55,5 +55,8 @@ header {
     max-width: 70%;
   }
 }
+.custom-text-color .nav-link {
+  color: #ff0000;
+}
 
 /*# sourceMappingURL=estilo.css.map */
