@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Metaetiquetas -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Título de la página -->
     <title>Tienda de mascotas</title>
     <!-- Metaetiqueta de palabras clave -->
     <meta name="keywords" content="tienda, mascotas, perros, gatos, alimentos, ofertas">
@@ -11,18 +13,21 @@
     <!-- boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
   <body>
 
+    <!-- Encabezado -->
     <header>
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
+              <!-- Logo -->
               <a class="navbar-brand d-flex justify-content-center" href="../index.html">
                 <img src="../img/logoclaro1.png" alt="Logo">
               </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- Botón de navegación en dispositivos pequeños -->  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   
@@ -32,9 +37,11 @@
               
               <div class="container-fluid">
 
-                  <form class="mb-4 w-50 d-none d-lg-block" role="search">
+                <!-- Barra de búsqueda en dispositivos grandes -->  
+                <form class="mb-4 w-50 d-none d-lg-block" role="search">
                     <input class="form-control me-2" type="search" aria-label="Search">
                   </form>
+                  <!-- Lista de enlaces de navegación -->
                   <div class="collapse navbar-collapse lista" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-text-color">
                       <li class="nav-item">
@@ -52,6 +59,7 @@
                         <a class="nav-link" href="../html/contacto.html">contacto</a>
                       </li>
                     </ul>
+                    <!-- Iconos de cuenta y carrito -->
                     <div class="d-flex carrito highlighted-text">
                         <div class="me-5">
                             <img src="../img/Person.png" alt="Mi cuenta">
@@ -69,16 +77,20 @@
           </nav>
     </header>
 
+    <!-- Contenido principal -->
     <main >
-        <section>
+      <!-- Sección del banner -->  
+      <section>
             <div>
                 <img class="w-100 h-50" src="../img/banner3.png" alt="Banner">
             </div>
         </section>
+        <!-- Sección de marcas -->
         <section class="container-fluid mt-5">
             <h1 class="text-primary">Marcas</h1>
             <div >
-                <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 mt-4">
+              <!-- Filas de tarjetas de marcas (1ra sección) -->  
+              <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 mt-4">
                     <div class="col">
                       <div class="card rounded-4">
                         <img src="../img/marca1.png" class="card-img-top" alt="Marca Purina">
@@ -111,7 +123,8 @@
 
             </div>
             <div>
-                <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+              <!-- Filas de tarjetas de marcas (2da sección) -->  
+              <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
                     <div class="col">
                       <div class="card rounded-4">
                         <img src="../img/marca5.png" class="card-img-top" alt="Marca Purina Excellent">
@@ -146,7 +159,9 @@
         </section>
     </main>
 
+    <!-- Pie de página -->
     <footer class="bg-primary d-flex align-items-center justify-content-center flex-column">
+      <!-- Iconos de redes sociales -->
       <ul class="d-flex">
           <li class="nav-item">
               <a class="nav-link" href="https://www.instagram.com" target="_blank">

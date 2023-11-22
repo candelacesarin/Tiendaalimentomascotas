@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Metaetiquetas -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Título de la página -->
     <title>Tienda de mascotas</title>
     <!-- Metaetiqueta de palabras clave -->
     <meta name="keywords" content="tienda, mascotas, perros, gatos, alimentos, ofertas">
@@ -15,26 +17,30 @@
 </head>
 
   <body>
-
+<!-- Encabezado -->
     <header>
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
+              <!-- Logo -->
               <a class="navbar-brand d-flex justify-content-center" href="index.html">
                   <img src="./img/logoclaro1.png" alt="Logo">
                 </a>
             
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- Botón de navegación en dispositivos pequeños -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   
                     
               
-              
+              <!-- Menú de navegación -->
               <div class="container-fluid">
 
-                  <form class="mb-4 w-50 d-none d-lg-block" role="search">
+                <!-- Barra de búsqueda en dispositivos grandes -->  
+                <form class="mb-4 w-50 d-none d-lg-block" role="search">
                     <input class="form-control me-2" type="search" aria-label="Search">
                   </form>
+                  <!-- Lista de enlaces de navegación -->
                   <div class="collapse navbar-collapse lista" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-text-color">
                       <li class="nav-item">
@@ -52,6 +58,7 @@
                         <a class="nav-link" href="html/contacto.html">contacto</a>
                       </li>
                     </ul>
+                    <!-- Iconos de cuenta y carrito -->
                     <div class="d-flex carrito highlighted-text">
                         <div class="me-5">
                             <img src="./img/Person.png" alt="Mi cuenta">
@@ -69,18 +76,22 @@
           </nav>
     </header>
 
+    <!-- Contenido principal -->
     <main >
+      <!-- Sección de banner -->
         <section>
             <div>
                 <img class="w-100 h-50" src="./img/banner1.png" alt="Banner">
             </div>
         </section>
+        <!-- Sección de productos en oferta para perros -->
         <section class="container-fluid mt-5">
             <h1 class="text-primary">Tienda para mascotas</h1>
             <div >
                 <h2 class="text-primary pb-3 pt-4">Productos en oferta para perros</h2>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
-                    <div class="col">
+                  <!-- Tarjeta de producto -->  
+                  <div class="col">
                       <div class="card rounded-4">
                         <img src="./img/ofertaperro1.png" class="card-img-top" alt="Alimento oferta eukanuba">
                         <div class="card-body">
@@ -111,10 +122,12 @@
                   </div>
 
             </div>
+            <!-- Sección de productos en oferta para gatos -->
             <div>
                 <h2 class="text-primary pb-3 pt-5">Productos en oferta para gatos</h2>
                 <div class="row row-cols-1 row-cols-md-4 row-cols-md-2 g-4">
-                    <div class="col">
+                  <!-- Tarjeta de producto -->  
+                  <div class="col">
                       <div class="card rounded-4">
                         <img src="./img/ofertagato1.png" class="card-img-top" alt="Alimento oferta eukanuba">
                         <div class="card-body">
@@ -148,7 +161,9 @@
         </section>
     </main>
 
+    <!-- Pie de página -->
     <footer class="bg-primary d-flex align-items-center justify-content-center flex-column">
+      <!-- Iconos de redes sociales -->
       <ul class="d-flex">
           <li class="nav-item">
               <a class="nav-link" href="https://www.instagram.com" target="_blank">
