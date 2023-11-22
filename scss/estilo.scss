@@ -1,77 +1,8 @@
-$font-family: 'Roboto', sans-serif;
-$primary-color: #fff;
-$background-color-main: #EAE3C5;
+// styles.scss
 
-* {
-    font-family: $font-family;
-}
-
-/* navbar */
-.lista ul li a, .carrito div a {
-    color: $primary-color;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-/* main */
-main {
-    background-color: $background-color-main;
-    padding-bottom: 80px;
-}
-
-ul {
-    list-style: none;
-}
-
-footer ul li a {
-    margin-left: 10px;
-}
-
-footer {
-    height: 150px;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-.formulario1 {
-    height: 30rem;
-}
-
-main {
-    background-color: #EAE3C5;
-} 
-
-header {
-    color: #EAE3C5;
-}
-
-// Estilos para tamaños de pantalla grandes (mayor a 767px)
-.navbar-brand img {
-    max-width: 100%;
-    height: auto; // 
-}
-
-// Media query para tamaños de pantalla pequeños (hasta 767px)
-@media (max-width: 767px) {
-    .navbar-brand img {
-        max-width: 70%; 
-    }
-}
-
-.custom-text-color .nav-link {
-    color: #EAE3C5; 
-}
-
-/*cambio de color de la tipografía en footer*/
-.special-text-color {
-    color: #EAE3C5; 
-}
-
-/*cambio de color en el header*/
-.highlighted-text {
-    color: #EAE3C5;
-}
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
+@import 'main';
+@import 'footer';
+@import 'header';

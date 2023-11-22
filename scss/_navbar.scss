@@ -1,0 +1,9 @@
+// _navbar.scss
+
+.lista ul li a, .carrito div a {
+    color: $primary-color;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+// _header.scss
+
+header {
+    color: $background-color-main;
+
+    // Media query para tamaños de pantalla grandes (mayor a 767px)
+    @media (min-width: 768px) {
+        .navbar-brand img {
+            max-width: 100%;
+            height: auto; 
+        }
+    }
+
+    // Media query para tamaños de pantalla pequeños (hasta 767px)
+    @media (max-width: 767px) {
+        .navbar-brand img {
+            max-width: 70%; 
+        }
+    }
+
+    &.custom-text-color {
+        .nav-link {
+            color: $background-color-main; 
+        }
+    }
+
+    .highlighted-text {
+        color: $background-color-main;
+    }
+}
