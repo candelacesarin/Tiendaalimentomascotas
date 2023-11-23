@@ -3,6 +3,12 @@
 header {
     color: $background-color-main;
 
+    &.animated {
+        .navbar-brand img {
+            animation: slideIn 1s ease-in-out;
+        }
+    }
+
     // Media query para tamaños de pantalla grandes (mayor a 767px)
     @media (min-width: 768px) {
         .navbar-brand img {

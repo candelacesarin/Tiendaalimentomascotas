@@ -1,6 +1,12 @@
 // _main.scss
 
+@import 'animations';
+
 main {
     background-color: $background-color-main;
     padding-bottom: 80px;
+
+    &.animated {
+        animation: fadeIn 1s ease-in-out;
+    }
 }
